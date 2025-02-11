@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.product-list, .cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.product-price-div{
+    display: flex;
+    gap: 20px;
+}
+
+.btn_clear-cart{
+    margin-top: 20px;
+}

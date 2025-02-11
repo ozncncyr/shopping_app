@@ -1,3 +1,3 @@
-# project-template
+\*shopping-app
 
-Template for Projects
+Online Shopping App

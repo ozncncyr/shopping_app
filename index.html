@@ -12,8 +12,66 @@
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/root.css" />
     <link rel="stylesheet" href="./src/css/styles.css" />
-    <script src="./src/js/main.js"></script>
-    <title>Document</title>
+
+    <title>Shopping App</title>
   </head>
-  <body></body>
+  <body>
+    <h1 class="title">Çevrimiçi Mağaza</h1>
+    <div id="product-list" class="product-list">
+      <div class="product">
+        <span>Revolution Reloaded Palette Affection</span>
+        <div class="product-price-div">
+          <span>344.89 TL</span>
+          <button
+            onclick="addToCart('Revolution Reloaded Palette Affection', 344.89)"
+          >
+            Sepete Ekle
+          </button>
+        </div>
+      </div>
+      <div class="product">
+        <span>Maybelline New York Lash Sensational Sky High Maskara</span>
+        <div class="product-price-div">
+          <span>479 TL</span>
+          <button
+            onclick="addToCart('Maybelline New York Lash Sensational Sky High Maskara', 479)"
+          >
+            Sepete Ekle
+          </button>
+        </div>
+      </div>
+      <div class="product">
+        <span>Maybelline New York Super Stay Vinyl Ink</span>
+        <div class="product-price-div">
+          <span>719.88 TL</span>
+          <button
+            onclick="addToCart('Maybelline New York Super Stay Vinyl Ink', 719.88)"
+          >
+            Sepete Ekle
+          </button>
+        </div>
+      </div>
+      <div class="product">
+        <span
+          >NYX Professional Makeup Marshmellow Soothing Primer - Makyaj
+          Bazı</span
+        >
+        <div class="product-price-div">
+          <span>799.62 TL</span>
+          <button
+            onclick="addToCart('NYX Professional Makeup Marshmellow Soothing Primer - Makyaj Bazı', 799.62)"
+          >
+            Sepete Ekle
+          </button>
+        </div>
+      </div>
+    </div>
+    <h2 class="cart-title">Sepet</h2>
+    <div id="cart" class="cart">
+      <ul class="cart-list" id="cart-list"></ul>
+      <p>Total: <span class="total-price" id="total-price">0</span> TL</p>
+      <button id="btn_clear-cart" class="btn_clear-cart">Clear Cart</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
